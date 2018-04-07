@@ -1,0 +1,115 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+   background-color: #dcdcdc;
+}
+
+
+#main_content {
+	#content {
+		float: none;
+	}
+	padding-bottom: 100px;
+	.link {
+		padding: 2em 1em;
+		border-bottom: 1px solid Orange;
+		.title {
+
+			a {
+				color: Pink;
+			}
+		}
+	}
+	.comments_title {
+		margin-top: 2em;
+	}
+	#comments {
+		.comment {
+			padding: 1em 0;
+			border-top: 1px solid #E9E9E9;
+			.lead {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: Black;
+}
+.topnav a {
+  float: right;
+  color: orange;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: Orange;
+  color: Black;
+  font-size: 21px;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav b {
+  float: left;
+  color: orange;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 64px;
+}
+
+.topnav b:hover {
+  background-color: Orange;
+  color: Black;
+  font-size: 65px;
+}
+
+.topnav b.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
